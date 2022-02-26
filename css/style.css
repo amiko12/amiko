@@ -1,12 +1,61 @@
-.p{
-    color: red;
-}
-.amiko{
-    background-color: black;
-    width: 100px;
-    height: 100px;
-}
-.am{
-    color: blue;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     text-decoration: none;
+}
+body{
+    background-color: #232323; 
+   
+}
+/* #343333 */
+.logo{
+    border: 2px solid #377DFF;
+    background-color: #377DFF;
+    border-radius: 0px 0px 20px 20px;
+    margin-left: 25px;
+    padding: 10px;
+}
+.header-div{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #232323;
+    align-items: center;
+    
+}
+.header-h1{
+    color: white;
+    font-size: 20px;
+    
+}
+.cont{
+    display: flex;
+   
+    width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.wrapper{
+}
+ 
+
+
+.box{
+    display: flex;
+    margin-top: 20px;
+    background-color: #343333;
+    width: 150px;
+    height: 230px;
+}
+
+.header-a{
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;   
+}
+.header-a:hover{
+    color:#377DFF;
 }
