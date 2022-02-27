@@ -21,29 +21,31 @@ body{
     display: flex;
     flex-direction: row;
     background-color: #232323;
-    align-items: center;
-   
-    
+    align-items: center;     
 }
 .header-h1{
     color: white;
-    font-size: 20px;
-    
+    font-size: 20px;   
 }
 .cont{
     max-width: 1300px;
     display: flex;
-    justify-content: center;
-    
-
+    justify-content: center;    
 }
 .wrapper{
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;   
 }
-
+.register-a{
+    border: 2px solid #377DFF;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color:#377DFF;
+    color: white;
+    margin-left:780px;    
+    font-family:'Poppins', sans-serif ;
+}
 .div-window{
     display: flex;
     flex-wrap: wrap;
@@ -64,7 +66,6 @@ body{
 }
 .div-text p {
     color: white;
-    
 }
 .start-btn{
     border:#377DFF solid 2px ;
@@ -74,12 +75,14 @@ body{
     padding: 5px 15px;
     margin-right: 10px;
 }
+
 .contact-btn{
     border:solid 2px #377DFF;
     border-radius: 10px;
     color: white;
     padding: 5px 15px;
 }
+
 .div-btn{
     margin-top: 20px;
 }
@@ -89,7 +92,23 @@ body{
     width: 200px;
     height: 240px;
 }
-
+.box-img{
+    margin: 30px 30px 15px 30px;
+    width: 65px;   
+}
+.box1-h3{
+    color: white;
+    font-family:'Poppins', sans-serif;
+    margin-left: 20px;
+    font-size: 20px;
+}
+/* 'Montserrat', sans-serif */
+.box1-p{
+    font-size: 16px;
+    color: white;
+    font-family:'Montserrat', sans-serif ;
+    margin: 10px 0px 0px 20px;
+}
 .header-a{
     margin-left: 30px;
     font-size: 20px;
@@ -97,4 +116,66 @@ body{
 }
 .header-a:hover{
     color:#377DFF;
+}
+
+.box2-h3{
+    color: white;
+    font-family:'Poppins', sans-serif;
+    margin-left: 5px;
+}
+.box2-p {
+    font-size: 16px;
+    color: white;
+    font-family:'Montserrat', sans-serif ;
+    margin: 10px 0px 0px 20px;
+}
+
+.box3-h3{
+    color: white;
+    font-family:'Poppins', sans-serif;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.box3-p{
+    font-size: 16px;
+    color: white;
+    font-family:'Montserrat', sans-serif ;
+    margin: 8px 0px 0px 20px;
+}
+
+.box4-h3{
+    color: white;
+    font-family:'Poppins', sans-serif;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.box4-p{
+    font-size: 16px;
+    color: white;
+    font-family:'Montserrat', sans-serif ;
+    margin: 8px 0px 0px 20px;
+}
+.box5-h3{
+    color: white;
+    font-family:'Poppins', sans-serif;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.box5-p{
+    font-size: 16px;
+    color: white;
+    font-family:'Montserrat', sans-serif ;
+    margin: 8px 0px 0px 20px
+}
+.box6-h3{
+    color: white;
+    font-family:'Poppins', sans-serif;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.box6-p{
+    font-size: 16px;
+    color: white;
+    font-family:'Montserrat', sans-serif ;
+    margin: 8px 0px 0px 20px
 }
