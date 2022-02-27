@@ -6,7 +6,6 @@
 }
 body{
     background-color: #232323; 
-   
 }
 /* #343333 */
 .logo{
@@ -23,6 +22,7 @@ body{
     flex-direction: row;
     background-color: #232323;
     align-items: center;
+   
     
 }
 .header-h1{
@@ -31,24 +31,63 @@ body{
     
 }
 .cont{
+    max-width: 1300px;
     display: flex;
-   
-    width: 1200px;
-    width: 100%;
-    margin: 0 auto;
+    justify-content: center;
+    
 
 }
 .wrapper{
-}
- 
-
-
-.box{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.div-window{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 47px;
+}
+.div-text{
+    margin-left: 200px;
+    
+}
+.div-texth2{
+    border: 2px solid #377DFF;
+    border-radius: 0px 0px 30px 30px;
+    background-color: #377DFF;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: white;
+}
+.div-text p {
+    color: white;
+    
+}
+.start-btn{
+    border:#377DFF solid 2px ;
+    border-radius: 10px;
+    background-color: #377DFF;
+    color: white;
+    padding: 5px 15px;
+    margin-right: 10px;
+}
+.contact-btn{
+    border:solid 2px #377DFF;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+}
+.div-btn{
     margin-top: 20px;
+}
+.box{
+    margin: 10px;
     background-color: #343333;
-    width: 150px;
-    height: 230px;
+    width: 200px;
+    height: 240px;
 }
 
 .header-a{
