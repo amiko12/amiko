@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #343333;
+}
+.both{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+.left{
+    max-width: 600px;
+    width: 100%;
+    margin-top: 47px;
+}
+.right{
+    margin-top: 47px;
+}
+.right-h1{
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    color: white;
+}
+.right-p{
+    color: white;
+    font-size: 18px;
+}
+.email{
+    margin: 10px 0px 25px 0px;
+    max-width: 280px;
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.email::placeholder{
+    color: #377dff;
+    
+    font-size: 14px;  
+}
+
+.email:focus{
+    outline: none;
+}
+.password::placeholder{
+    color: #377dff;
+}
+.password:focus{
+    outline: none;
+}
+.password{
+    max-width: 280px;
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.btn{
+    max-width: 200px;
+    width: 100%;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: #377dff;
+    border: none;
+}
+.checkbox{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.leftimg{
+   max-width: 800px;
+    margin-top: 47px;
+}
