@@ -32,6 +32,16 @@
         width:76% ;
     }
 }
+@media(max-width:600px){
+    .register,
+    .header-a{
+        display: none;
+        
+    }
+    .menu{
+        display: block;
+    }
+}
 @media(max-width:535px){
     .div-window{
         width: 50%;
