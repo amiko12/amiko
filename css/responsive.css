@@ -15,7 +15,6 @@
         
     }
 }
-
 @media(max-width:1040px){
     .div-window{
         width: 75%;
@@ -37,12 +36,13 @@
     .header-a{
         display: none;  
     }
-    .header-div{
+    /* .header-div{
         display: flex;
-        justify-content: space-around;
-    }
+        justify-content: space-around; */
+    /* } */
     .menu{
         display: block;
+        margin-right: 10px;
     }
 }
 @media(max-width:535px){
