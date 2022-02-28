@@ -1,0 +1,39 @@
+@media (max-width:1100px) {
+    .wrapper{
+        flex-direction: column;
+        justify-content: center ;
+    }
+    .div-window{
+        width:65%;
+    }
+    .start-btn{
+        margin: 10px;
+    }
+    .div-text{
+        margin-top: 50px;
+        margin-left: 0;
+        
+    }
+}
+
+@media(max-width:1040px){
+    .div-window{
+        width: 75%;
+    }
+
+}
+@media(max-width:900px){
+    .div-window{
+        width: 85%;
+    }
+}
+@media(max-width:800px){
+    .div-window{
+        width:76% ;
+    }
+}
+@media(max-width:535px){
+    .div-window{
+        width: 50%;
+    }
+}
