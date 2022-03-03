@@ -96,6 +96,7 @@ body{
     padding: 5px 15px;
 }
 
+
  .div-btn{
     margin-top: 20px;
 } 
@@ -192,4 +193,10 @@ body{
     color: white;
     font-family:'Montserrat', sans-serif ;
     margin: 8px 0px 0px 20px
+}
+.footer {
+    color: white;
+    background-color:#343333 ;
+    text-align: center;
+    padding: 10px;
 }

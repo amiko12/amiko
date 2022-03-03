@@ -2,6 +2,7 @@
     .wrapper{
         flex-direction: column;
         justify-content: center ;
+        margin-bottom: 43px;
     }
     .div-window{
         width:65%;
@@ -12,8 +13,8 @@
     .div-text{
         margin-top: 50px;
         margin-left: 0;
-        
     }
+    
 }
 @media(max-width:1040px){
     .div-window{
@@ -32,21 +33,35 @@
     }
 }
 @media(max-width:600px){
-    .register,
-    .header-a{
-        display: none;  
-    }
-    /* .header-div{
-        display: flex;
-        justify-content: space-around; */
-    /* } */
+    
+    .nav-li{
+     display: flex;
+    flex-direction: column;
+    } 
+    .register-a{
+     display: none;  
+    } 
+   /*  .nav-li{
+        display: none;
+    } */
     .menu{
         display: block;
         margin-right: 10px;
     }
-}
+
+     
+    .nav-li.active{
+        display: block;
+    }
+ }
+
+    
+
 @media(max-width:535px){
     .div-window{
         width: 50%;
     }
+
+    
+    
 }

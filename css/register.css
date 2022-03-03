@@ -19,6 +19,7 @@ body{
 }
 .right{
     margin-top: 47px;
+    margin-right: 200px;
 }
 .right-h1{
     text-align: center;
@@ -75,6 +76,7 @@ body{
     margin-top: 20px;
 }
 .leftimg{
-   max-width: 800px;
+   max-width: 900px;
+   width: 100%;
     margin-top: 47px;
 }
