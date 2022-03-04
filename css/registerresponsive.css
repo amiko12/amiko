@@ -1,8 +1,30 @@
 @media(max-width:1000px){
     .right{
-        margin-right: 0;
+        margin-right: 0px;
+    }
+    .both{
+        flex-direction: column;
     }
 }
-@media(max-widht:820px){
-    
+@media(max-width:710px){
+    .nav-ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu{
+        display: block;
+        margin-right: 10px;
+    }
+    .nav{
+        display: none;
+    }
+    .register-a{
+     display: none;  
+    } 
+    .header-div{
+        display: flex;
+    }
+    .nav.active{
+        display: block;
+    }
 }
