@@ -70,10 +70,12 @@ body{
     color: white;
     background-color: #377dff;
     border: none;
+    cursor: pointer;
 }
 .checkbox{
     margin-left: 15px;
     margin-top: 20px;
+    cursor: pointer;
 }
 .leftimg{
    max-width: 900px;
